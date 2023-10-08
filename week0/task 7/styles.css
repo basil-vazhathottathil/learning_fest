@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.divOne{
+    width: 100vw;
+    height: 8vh;
+    background-color: aquamarine;
+}
+
+.divTwo{
+    width: 100vw;
+    height: 88vh;
+    background-color: beige;
+}
+
+.divThree{
+    width: 100vw;
+    height: calc(100-(88+8))vh;
+    background-color: gray;
+}
